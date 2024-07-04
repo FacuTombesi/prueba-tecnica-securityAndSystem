@@ -1,6 +1,6 @@
 .contact {
   padding-top: 25px;
-  border-top: 0.5px solid gray;
+  border-top: 0.5px solid rgba(128, 128, 128, 0.5);
 }
 
 .title {
@@ -81,6 +81,27 @@
 
 .button:disabled {
   background-color: #CCCCCC;
+  border: 2px solid #CCCCCC;
   color: #979797;
   cursor: not-allowed;
+}
+
+.mail_alert {
+  display: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.show_alert {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
