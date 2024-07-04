@@ -3,7 +3,7 @@ import styles from "../styles/About.module.css";
 export default function About() {
   return (
     <section className={styles.about}>
-      <h2 className={styles.title}>About me</h2>
+      <h2 className={styles.title}><span className={styles.title_capital}>A</span>bout me</h2>
       <p className={styles.content}>
         Hi! My name is Facundo Tombesi, from Argentina. I'm a Multimedia Designer and Full Stack Developer. I got my Multimedia Designer degree on 2018 and ever since I've been working as a freelance designer, doing web design, logo design and personal business cards for my clients. But I wanted to grow even more and do more than just design web sites, I wanted to be able to develop them as well.
       </p>

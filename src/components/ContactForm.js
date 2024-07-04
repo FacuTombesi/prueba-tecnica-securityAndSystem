@@ -3,7 +3,7 @@ import styles from "../styles/ContactForm.module.css";
 export default function ContactForm() {
   return (
     <section className={styles.contact}>
-      <h2 className={styles.title}>Contact</h2>
+      <h2 className={styles.title}><span className={styles.title_capital}>C</span>ontact</h2>
       <form className={styles.form}>
         <div className={styles.first_row}>
           <label className={styles.label}>

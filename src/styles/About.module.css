@@ -1,0 +1,18 @@
+.about {
+  padding-top: 25px;
+  border-top: 0.5px solid gray;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.title_capital {
+  color: rgb(255, 69, 0);
+}
+
+.content {
+  font-size: 14px;
+  padding: 10px;
+}

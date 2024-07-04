@@ -1,0 +1,24 @@
+.interests {
+  padding-top: 25px;
+  border-top: 0.5px solid gray;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.title_capital {
+  color: rgb(255, 69, 0);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px;
+}
+
+.list_item {
+  font-size: 14px;
+}

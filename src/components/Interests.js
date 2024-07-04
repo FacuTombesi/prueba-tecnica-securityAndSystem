@@ -3,7 +3,7 @@ import styles from "../styles/Interests.module.css";
 export default function Interests() {
   return (
     <section className={styles.interests}>
-      <h2 className={styles.title}>Interests</h2>
+      <h2 className={styles.title}><span className={styles.title_capital}>I</span>nterests</h2>
       <ul className={styles.list}>
         <li className={styles.list_item}>Programming</li>
         <li className={styles.list_item}>Video games</li>
